@@ -1,0 +1,5 @@
+# Ignore nodejs
+node_modules
+
+# Ignore drupal files
+drupal

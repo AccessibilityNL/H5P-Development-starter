@@ -1,0 +1,22 @@
+{
+  "name": "H5P-Development",
+  "version": "1.0.0",
+  "description": "Development project for H5P modules, https://h5p.org",
+  "scripts": {
+    "install": "npm run clone:drupal & npm run clone:h5p-module",
+    "clone:drupal": "git clone --branch 7.x https://git.drupalcode.org/project/drupal.git drupal",
+    "clone:h5p-module": "git clone https://git.drupalcode.org/project/h5p.git drupal/modules/h5p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "H5P",
+    "Development",
+    "Drupal7",
+    "cli"
+  ],
+  "author": "https://github.com/rvantonisse-accessibility",
+  "license": "ISC",
+  "devDependencies": {
+    "h5p": "^0.9.0"
+  }
+}
